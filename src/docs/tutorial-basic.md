@@ -50,6 +50,8 @@ TODO have a text editor (such as VSCode)
 - [vscode](https://code.visualstudio.com/download)
 - [VSCodium](https://vscodium.com/)
 
+TODO optional but recommended : have git
+
 
 # Create the project directory and 11ty install
 
@@ -200,7 +202,9 @@ Hello world
 ```
 
 TODO
-explain [YAML](https://yaml.org/) est transformé en donnée javascript qui sont ensuite utilisable dans le layout. La ligne `layout` a une signification particulière et indique quel fichier de layout doit être utilisé pour rendre ce template. Le contenu du fichier mardown est tranformé en HTML et est disponible dans la variable `content` de la *data cascade*.
+- explain [YAML](https://yaml.org/) become javascript value data
+- explain md text becomes HTML in the `content` data
+- `layout` line trigger layout file application
 
 
 # Another page, add link
